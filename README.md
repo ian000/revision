@@ -1,12 +1,14 @@
 # 静态资源版本号自动编译
+
+
  	
-2. ### install:  
+1. ### install:  
 	npm i 
 2. ### run:    
 	1. jade模板编译：gulp 或	gulp revJade
 	2. html编译：gulp revHTML
 	
-3. ### Surport:
+3. ### support:
 	1. jade
 	2. html
 	3. js
