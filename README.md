@@ -17,15 +17,20 @@ $ npm i
 		gulp 或	gulp revJade
 
 	html编译：
+
 		gulp revHTML
+
 ```
 
 ### Surport:
+
+```
 		- jade
 		- html
 		- js
 		- css
 		- images
+```
 ### PHP reads the manifest and provides asset names
 
 ```php
