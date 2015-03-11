@@ -1,6 +1,7 @@
 # 静态资源版本号自动编译
- 	
- 1. ### install:  
+
+
+1. ### install:  
 		npm i 
 2. ### run:    
 		1. jade模板编译：gulp 或	gulp revJade
@@ -11,7 +12,6 @@
 		3. js
 		4. css
 		5. images
-		
 4. ### PHP reads the manifest and provides asset names
 
 		/**
