@@ -12,13 +12,17 @@ $ npm i
 ## Run:
 
 ```
-	jade模板编译：
+	jade compile：
 
-		gulp 或	gulp revJade
+		$ gulp 
+		
+		or	
+		
+		$ gulp revJade
 
-	html编译：
+	html compile：
 
-		gulp revHTML
+		$ gulp revHTML
 
 ```
 
