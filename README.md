@@ -36,6 +36,7 @@
 </html>
 '''
 
+
 ## Install
 
 ```
@@ -45,54 +46,54 @@ $ npm i
 ## Run:
 
 ```
-	jade compile：
+    jade compile：
 
-		$ gulp 
-		
-		or	
-		
-		$ gulp revJade
+        $ gulp 
+        
+        or  
+        
+        $ gulp revJade
 
-	html compile：
+    html compile：
 
-		$ gulp revHTML
+        $ gulp revHTML
 
 ```
 
 ### Surport:
 
 ```
-		- jade
-		- html
-		- js
-		- css
-		- images
+        - jade
+        - html
+        - js
+        - css
+        - images
 ```
 ### PHP reads the manifest and provides asset names
 
 ```php
-		/**
-	 	* @param  string  $filename
-	 	* @return string
-	 	*/
+        /**
+        * @param  string  $filename
+        * @return string
+        */
 
-		function asset_path($filename) {
-	    	$manifest_path = 'assets/rev-manifest.json';
+        function asset_path($filename) {
+            $manifest_path = 'assets/rev-manifest.json';
 
-	    	if (file_exists($manifest_path)) {
-	        	$manifest = json_decode(file_get_contents($manifest_path), TRUE);
-	    	} else {
-	       		$manifest = [];
-	    	}
+            if (file_exists($manifest_path)) {
+                $manifest = json_decode(file_get_contents($manifest_path), TRUE);
+            } else {
+                $manifest = [];
+            }
 
-	    	if (array_key_exists($filename, $manifest)) {
-	        	return $manifest[$filename];
-	    	}
+            if (array_key_exists($filename, $manifest)) {
+                return $manifest[$filename];
+            }
 
-	    	return $filename;
-		}
+            return $filename;
+        }
 
 
 
-	
+    
 
