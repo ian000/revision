@@ -2,6 +2,39 @@
 
 > Static asset revisioning by appending content hash to filenames
 `unicorn.css (.js or .jpg or images format)` → `unicorn-098f6bcd.css ` and relace the reference which in the html code
+## Example
+
+### src
+
+'''html
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>  My App</title>
+    <link rel="stylesheet" href="./app/css/main.css">
+  </head>
+  <body>
+    <script src="./app/js/main.js"></script>
+  </body>
+</html>
+
+'''
+
+### to dist
+
+'''html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>  My App</title>
+    <link rel="stylesheet" href="./app/css/main-da36c084.css">
+  </head>
+  <body>
+    <script src="./app/js/main-457c307b.js"></script>
+  </body>
+</html>
+'''
 
 ## Install
 
