@@ -20,8 +20,8 @@
     <script src="./app/js/main.js"></script>
   </body>
 </html>
+```
 
-'''
 
 ### to dist
 
@@ -36,7 +36,7 @@
     <script src="./app/js/main-457c307b.js"></script>
   </body>
 </html>
-'''
+```
 
 
 ## Install
