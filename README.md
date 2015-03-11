@@ -6,33 +6,33 @@
 
 ### src
 
-'''html
+```html+jinja
 
 <!DOCTYPE html>
 <html>
 <head>
-<title>  My App</title>
-<link rel="stylesheet" href="./app/css/main.css">
-</head>
-<body>
-<script src="./app/js/main.js"></script>
-</body>
+    <title>  My App</title>
+    <link rel="stylesheet" href="./app/css/main.css">
+  </head>
+  <body>
+    <script src="./app/js/main.js"></script>
+  </body>
 </html>
 
 '''
 
 ### to dist
 
-'''html
+```html+jinja
 <!DOCTYPE html>
 <html>
-<head>
-<title>  My App</title>
-<link rel="stylesheet" href="./app/css/main-da36c084.css">
-</head>
-<body>
-<script src="./app/js/main-457c307b.js"></script>
-</body>
+  <head>
+    <title>  My App</title>
+    <link rel="stylesheet" href="./app/css/main-da36c084.css">
+  </head>
+  <body>
+    <script src="./app/js/main-457c307b.js"></script>
+  </body>
 </html>
 '''
 
