@@ -2,18 +2,18 @@
 
 
 
-1. ### install:  
+1. install:  
 	 	npm i 
-- ### run:    
+- run:    
 		1. jade模板编译：gulp 或	gulp revJade
 		- html编译：gulp revHTML
-- ### Surport:
+- Surport:
 	1. jade
 	- html
 	- js
 	- css
 	- images
-- ### PHP reads the manifest and provides asset names
+- PHP reads the manifest and provides asset names
 
 		/**
 	 	* @param  string  $filename
