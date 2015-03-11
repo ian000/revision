@@ -2,7 +2,6 @@ gulp=require('gulp');
 rev=require('gulp-rev');
 fs = require 'fs'
 override=require('gulp-rev-css-url')
-jade=require('jade');
 jade = require('gulp-jade')
 rename = require('gulp-rename')
 _ = require('lodash')
