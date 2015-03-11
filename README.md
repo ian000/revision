@@ -1,11 +1,25 @@
 # 静态资源版本号自动编译 
 
+> Static asset revisioning by appending content hash to filenames
+`unicorn.css (.js or .jpg or images format)` → `unicorn-098f6bcd.css ` and relace the reference which in the html code
 
-### install:  
-		npm i
-### run:    
-		- jade模板编译：gulp 或	gulp revJade
-		- html编译：gulp revHTML
+## Install
+
+```
+$ npm i
+```
+
+## Run:
+
+```
+	jade模板编译：
+
+		gulp 或	gulp revJade
+
+	html编译：
+		gulp revHTML
+```
+
 ### Surport:
 		- jade
 		- html
@@ -14,6 +28,7 @@
 		- images
 ### PHP reads the manifest and provides asset names
 
+```php
 		/**
 	 	* @param  string  $filename
 	 	* @return string
