@@ -2,6 +2,8 @@
 
 > Static asset revisioning by appending content hash to filenames
 `unicorn.css (.js or .jpg or images format)` → `unicorn-098f6bcd.css ` and relace the reference which in the html code
+
+
 ## Example
 
 ### src
